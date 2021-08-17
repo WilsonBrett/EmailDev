@@ -1,0 +1,349 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all padding="0" />
+      <mj-wrapper padding-left="12px" padding-right="12px" />
+      <mj-text color="#474747" />
+    </mj-attributes>
+
+    <mj-style inline="inline">
+      .hero {
+        height: 366px;
+        background-image: url('../imgs/Hero-2020-08-26-HiWorldBackground.jpg');
+        background-size: 576px 366px;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .hero img {
+        height: 140px;
+        width: 160px;
+        
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      .copy {
+        background-color: #ffffff;
+        padding: 0 64px;
+      }
+
+      .content {
+        background-color: #ffffff;
+        padding: 0 64px;
+      }
+
+      .speaker {
+        min-height: 245px;
+        position: relative;
+      }
+
+      .speaker .head {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 150px;
+        z-index: 10;
+      }
+
+      .speaker .box {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: 0;
+        width: 100%;
+      }
+
+      .speaker .text {
+        position: absolute;
+        top: 140px;
+        right: 0;
+        width: 160px;
+      }
+
+      .speaker .text h3 {
+        font-size: 18px;
+        padding: 0;
+        margin: 0;
+        color: #22247a;
+      }
+
+      .speaker .text p {
+        line-height: 1.5;
+        padding-top: 8px;
+      }
+
+      .register-cta a {
+        background: none !important;
+        background-image: linear-gradient(to right, #8d52e0, #0da4f6) !important;
+        font-size: 16px !important;
+        font-weight: bold !important;
+      }
+
+      .hero-bottom {
+        height: 200px;
+        background-image: url('../imgs/Banner-2020-07-31-HiWorld2020Footer.png');
+        background-size: 576px 200px;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .social {
+        width: 35px;
+        padding: 0 10px;
+      }
+    </mj-style>
+
+    <mj-style>
+      @media screen and (max-width: 600px) {
+        .hero {
+          height: 250px !important;
+        }
+
+        .greeting div {
+          font-size: 20px !important;
+        }
+
+        .copy {
+          padding: 0 16px !important;
+        }
+
+        .content {
+          padding: 0 16px !important;
+        }
+
+        .hero-bottom {
+          height: 150px !important;
+        }
+      }
+    </mj-style>
+    <mj-style>
+      @media screen and (max-width: 600px) {
+        .speaker {
+          background-color: #f1f4fb !important;
+          min-height: 320px !important;
+          position: static !important;
+        }
+
+        .speaker .head {
+          position: static !important;
+          width: 100% !important;
+        }
+
+        .speaker .box {
+          display: none !important;
+          visibility: hidden !important;
+        }
+
+        .speaker .text {
+          position: static !important;
+          padding: 16px 0 !important;
+          width: 100% !important;
+        }
+
+        .speaker .text h3 {
+          font-size: 16px !important;
+          padding: 0 16px !important;
+        }
+
+        .speaker .text p {
+          line-height: 1.3 !important;
+          padding: 0 16px !important;
+        }
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#f1f4fb">
+    <mj-wrapper>
+      <mj-section>
+        <mj-column>
+          <mj-text align="right" padding="30px 0"><a href="#" style="color: #474747">View in browser</a></mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column>
+          <mj-text>
+            <div class="hero">
+              <img src="../imgs/Logo-2020-08-26-HiWorldSpeakers.png" alt="White text image overlay - HiWorld!" style="width: 175px;" />
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section css-class="copy">
+        <mj-column>
+          <mj-text css-class="greeting" align="center" color="blue" font-size="24px" padding="42px 0 30px">Hi {{lead.First Name:default=friend}},</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section css-class="copy">
+        <mj-column>
+          <mj-text font-size="16px" line-height="1.8" padding-bottom="24px">
+            We're excited to share with you more speaker who will facilitate breakouts at Human Insight World. At HiWorld, you can expect to hear from some of the most innovative and sought after brands in the world, sharing best practices for how to develop, build, create, and market amazing customer experiences.<br /><br />More speakers join the all-star lineup:
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!--Speaker row 1-->
+      <mj-section css-class="content speakers" padding-bottom="60px">
+        <mj-group>
+          <mj-column padding-right="12px">
+            <mj-text>
+              <div class="speaker">
+                <img class="head" src="../imgs/Speaker-2020-09-25-KanishkShukla.png" alt="Speaker headshot" />
+                <img class="box" src="../imgs/Background-2020-09-04-HiWorldSpeakerBg.png" alt="Gray background image" />
+                <div class="text">
+                  <h3>Kanishk Shukla</h3>
+                  <p style="margin: 0;">User Experience<br /> Researcher, E-commerce,<br />Alaska Airlines</p>
+                </div>
+              </div>
+            </mj-text>
+          </mj-column>
+          <mj-column padding-left="12px">
+            <mj-text>
+              <div class="speaker">
+                <img class="head" src="../imgs/Speaker-2020-09-22-KiArnould.png" alt="Speaker headshot" />
+                <img class="box" src="../imgs/Background-2020-09-04-HiWorldSpeakerBg.png" alt="Gray background image" />
+                <div class="text">
+                  <h3>KI Arnould</h3>
+                  <p style="margin: 0;">Senior UX Researcher,<br />The Home Depot</p>
+                </div>
+              </div>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      
+      <!--Speaker row 2-->
+      <mj-section css-class="content speakers" padding-bottom="60px">
+        <mj-group>
+          <mj-column padding-right="12px">
+            <mj-text>
+              <div class="speaker">
+                <img class="head" src="../imgs/Speaker-2020-09-22-KristinaBosland.png" alt="Speaker headshot" />
+                <img class="box" src="../imgs/Background-2020-09-04-HiWorldSpeakerBg.png" alt="Gray background image" />
+                <div class="text">
+                  <h3>Kristina Bosland,<br />MSHFID</h3>
+                  <p style="margin: 0;">Senior UX Manager,<br />The Home Depot</p>
+                </div>
+              </div>
+            </mj-text>
+          </mj-column>
+          <mj-column padding-left="12px">
+            <mj-text>
+              <div class="speaker">
+                <img class="head" src="../imgs/Speaker-2020-09-22-DevinHarold.png" alt="Speaker headshot" />
+                <img class="box" src="../imgs/Background-2020-09-04-HiWorldSpeakerBg.png" alt="Gray background image" />
+                <div class="text">
+                  <h3>Devin Harold</h3>
+                  <p style="margin: 0;">Senior Manager,<br />UX Research,<br />Customer Marketplace<br />Insights, Verizon</p>
+                </div>
+              </div>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <!--Speaker row 3-->
+      <mj-section css-class="content speakers" padding-bottom="60px">
+        <mj-group>
+          <mj-column padding-right="12px">
+            <mj-text>
+              <div class="speaker">
+                <img class="head" src="../imgs/Speaker-2020-09-22-ChristianIdiodi.png" alt="Speaker headshot" />
+                <img class="box" src="../imgs/Background-2020-09-04-HiWorldSpeakerBg.png" alt="Gray background image" />
+                <div class="text">
+                  <h3>Christian Idiodi</h3>
+                  <p style="margin: 0;">Partner<br />Silicon Valley<br />Product Group</p>
+                </div>
+              </div>
+            </mj-text>
+          </mj-column>
+          <mj-column padding-left="12px">
+            <mj-text>
+              <div class="speaker">
+                <img class="head" src="../imgs/Speaker-2020-09-22-YulingAn.png" alt="Speaker headshot" />
+                <img class="box" src="../imgs/Background-2020-09-04-HiWorldSpeakerBg.png" alt="Gray background image" />
+                <div class="text">
+                  <h3>Yuling An</h3>
+                  <p style="margin: 0;">Senior UX Researcher,<br />Facebook</p>
+                </div>
+              </div>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <!--Speaker row 4-->
+      <mj-section css-class="content speakers">
+        <mj-group>
+          <mj-column padding-right="12px">
+            <mj-text>
+              <div class="speaker">
+                <img class="head" src="../imgs/Speaker-2020-09-22-AnnEnders.png" alt="Speaker headshot" />
+                <img class="box" src="../imgs/Background-2020-09-04-HiWorldSpeakerBg.png" alt="Gray background image" />
+                <div class="text">
+                  <h3>Ann Enders</h3>
+                  <p style="margin: 0;">UX Director,<br />Indeed</p>
+                </div>
+              </div>
+            </mj-text>
+          </mj-column>
+          <mj-column padding-left="12px">
+            <mj-text>
+              <div class="speaker">
+                <img class="head" src="../imgs/Speaker-2020-09-22-KellyPrice.png" alt="Speaker headshot" />
+                <img class="box" src="../imgs/Background-2020-09-04-HiWorldSpeakerBg.png" alt="Gray background image" />
+                <div class="text">
+                  <h3>Kelly Price</h3>
+                  <p style="margin: 0;">Senior Analyst Serving<br />Customer Experience<br />Professionals,<br />Forrester</p>
+                </div>
+              </div>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <mj-section background-color="#ffffff" padding="48px 0">
+        <mj-column>
+          <mj-button border-radius="0" css-class="register-cta" href="#" inner-padding="16px" width="400px">REGISTER FOR HIWORLD NOW</mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-text font-size="26px" font-weight="700">
+            <div class="hero-bottom">
+              <p style="color: #ffffff; margin: 0;">See you at HiWorld!</p>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-image src="../imgs/Logo-2020-07-31-HiWorld2020.png" alt="HiWorld event banner" width="300" padding="48px 0" />
+          <mj-text align="center" line-height="21px" font-size="16px" color="#c0c4dc">Connect with us<br />#HiWorld20</mj-text>
+          <mj-text align="center" padding="30px 0">
+            <img class="social" src="../imgs/icon-fb@2x.png" alt="Social media icon - FB" />
+            <img class="social" src="../imgs/icon-tw@2x.png" alt="Social media icon - Twitter" />
+            <img class="social" src="../imgs/icon-ln@2x.png" alt="Social media icon - LinkedIn" />
+            <img class="social" src="../imgs/icon-ig@2x.png" alt="Social media icon - Instagram" />
+          </mj-text>
+          <mj-text align="center" color="#c0c4dc" line-height="21px" padding-bottom="60px">
+            UserTesting, 690 5th St, San Francisco, CA 94107<br />
+            1-888-877-1882 | <a style="color: #c0c4dc;" href="#">Privacy Policy</a><br />
+            <a style="color: #c0c4dc;" href="#">Unsubscribe</a> | <a style="color: #c0c4dc;" href="#">Update Email Preferences</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body> 
+</mjml>

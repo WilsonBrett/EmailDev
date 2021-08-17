@@ -1,0 +1,176 @@
+<mjml>
+  <mj-head>
+    <mj-title>The New Ford Bronco</mj-title>
+    <mj-attributes>
+      <mj-all font-family="helvetica, sans-serif" />
+      <mj-section padding="0" />
+    </mj-attributes>
+    <mj-preview>The New Ford Bronco</mj-preview>
+    <mj-style inline="inline">
+      .vib {
+        display: inline-block;
+        color: #7D829C;
+        font-size: 18px;
+      }
+
+      h1 {
+        color: #ffffff;
+        text-align: center;
+        font-size: 80px;
+        font-weight: 400;
+        line-height: 95px;
+        margin: 0;
+      }
+
+      h2 {
+        color: #ffffff;
+        text-align: center;
+        font-size: 55px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        line-height: 65px;
+        margin: 90px 0 0;
+      }
+
+      .h2-large {
+        font-size: 74px;
+        line-height: 90px;
+        font-weight: 700;
+      }
+
+      .body-copy {
+        color: #ffffff;
+        line-height: 39px;
+        font-size: 26px;
+        font-weight: 300;
+        text-align: center;
+      }
+
+      .read-more {
+        margin: 40px 0;
+        text-align: center;
+      }
+    
+      .read-more a {
+        border-bottom: 2px #5A52FF solid;
+        color: #5A52FF;
+        font-size: 26px;
+        line-height: 36px;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+
+      .footer-icons img {
+        padding-left: 10px;
+      }
+
+      .footer-details p {
+        color: #707478;
+        font-size: 14px;
+        line-height: 20px;
+        margin: 0px;
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body width="760px">
+    <mj-raw><!--Header--></mj-raw>
+    <mj-section background-color="#19171C">
+      <mj-column padding="35px 0">
+        <mj-text align="left" padding="0px 45px">
+          <a href="https://frame.io" target="_blank"><img src="../imgs/logo.svg" /></a>
+        </mj-text>
+      </mj-column>
+      <mj-column padding="47px 0">
+        <mj-text align="right" padding="0px 45px">
+          <a class="vib" href="https://frame.io" target="_blank">View in browser</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw><!--Main Hero - Zone 1--></mj-raw>
+    <mj-section background-color="#000000">
+      <mj-column>
+        <mj-spacer height="55px" />
+        <mj-text padding="0 25px">
+          <p style="color: #5A52FF; font-size: 26px; line-height: 36px; text-align: center; letter-spacing: 1px;">MADE IN FRAME:</p>
+          <h1>The New Ford Bronco</h1>
+          <p class="body-copy" style="margin: 22px 0 40px;">How a fully remote team created an award-winning ad campaign for the Ford Bronco.</p>
+        </mj-text>
+        <mj-button background-color="#5A52FF" border-radius="8px" font-size="24px" font-weight="700" href="https://frame.io" line-height="33px" inner-padding="33px 63px" padding="0">READ THE FULL CASE STUDY</mj-button>
+        <mj-image src="../imgs/bronco.jpg" alt="Pic of bronco going through mud" padding="0"/>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw><!--Sub-section - Zone 2--></mj-raw>
+    <mj-section background-color="#19171C" padding="0 60px">
+      <mj-column>
+        <mj-text padding="0">
+          <h2>Off-Road,<br />But Never Online</h2>
+          <p class="body-copy">Oscar-winning director Jimmy Chin and teams across the country used Frame.io to complete the campaign on deadline—even while working from home.</p>
+          <div class="read-more"><a href="https://frame.io" target="_blank">Read More</a></div>
+        </mj-text>
+        <mj-image src="../imgs/trucks1.jpg" alt="Two trucks driving across grassy field." border-radius="8px" padding="10px 0" />
+      </mj-column>
+    </mj-section>
+
+    <mj-raw><!--Sub-section - Zone 3--></mj-raw>
+    <mj-section background-color="#19171C" padding="0 60px">
+      <mj-column>
+        <mj-text padding="0">
+          <h2>The New Normal</h2>
+          <p class="body-copy">See how Frame.io—with its lightning-fast asset uploads and seamless consolidation of feedback—eased remote collaboration for the whole team, including key creatives and C-suite executives.</p>
+          <div class="read-more"><a href="https://frame.io" target="_blank">Read More</a></div>
+        </mj-text>
+        <mj-image src="../imgs/dude_working.jpg" alt="Man working at desk on computer in apartment in the evening." padding="10px 0" />
+        <mj-button background-color="#5A52FF" border-radius="8px" font-size="24px" font-weight="700" href="https://frame.io" line-height="33px" inner-padding="33px 63px" padding="80px 0 90px">READ THE FULL CASE STUDY</mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw><!--Sub-section - Zone 4--></mj-raw>
+    <mj-section background-url="../imgs/gradient.jpg">
+      <mj-column>
+        <mj-text>
+          <h2 class="h2-large">Meet, [Lorem]</h2>
+          <p class="body-copy" style="padding: 0 90px;">Schedule a time with your personal rep to walk through all our features.</p>
+        </mj-text>
+        <mj-image src="../imgs/ipad_full.svg" alt="iPad with dark background displaying video editing software." width="550px" />
+        <mj-button background-color="#5A52FF" border-radius="8px" font-size="24px" font-weight="700" href="https://frame.io" line-height="33px" inner-padding="33px 63px" padding="40px 0 90px">BOOK A DEMO</mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw><!--Sub-section - Footer--></mj-raw>
+    <mj-section background-color="#0F0F14">
+      <mj-column>
+        <mj-divider border-color="#3A3D41" border-width="1px" padding="35px 45px" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#0F0F14" padding-bottom="20px">
+      <mj-column padding-top="4px">
+        <mj-text align="left" padding="0 45px">
+          <a href="https://frame.io" target="_blank"><img src="../imgs/logo_small.svg" /></a>
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text css-class="footer-icons" align="right" padding="0 45px">
+          <a href="https://frame.io" target="_blank" target="_blank"><img src="../imgs/icon_li.svg" alt="LinkedIn Icon" /></a>
+          <a href="https://frame.io" target="_blank" target="_blank"><img src="../imgs/icon_yt.svg" alt="YouTube Icon" /></a>
+          <a href="https://frame.io" target="_blank" target="_blank"><img src="../imgs/icon_fb.svg" alt="Facebook Icon" /></a>
+          <a href="https://frame.io" target="_blank" target="_blank"><img src="../imgs/icon_twitter.svg" alt="Twitter Icon" /></a>
+          <a href="https://frame.io" target="_blank" target="_blank"><img src="../imgs/icon_globe.svg" alt="Globe Icon" /></a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#0F0F14">
+      <mj-column>
+        <mj-text css-class="footer-details" padding="0 45px 200px">
+          <p>&#169; 2020 Frame.io, Inc</p>
+          <p>22 Cortlandt St 31st floor,</p>
+          <p>New York, NY 10007</p><br /><br />
+          <p>Update your <a href="https://frame.io" target="_blank" style="color: #707478">email preferences</a> to choose the types of email you receive from Frame.io, or you can <a href="https://frame.io" target="_blank" style="color: #707478">unsubscribe</a> from all future emails.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>

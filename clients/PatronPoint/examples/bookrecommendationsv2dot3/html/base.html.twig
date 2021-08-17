@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% if page is defined %}
+    <title>{pagetitle}</title>
+    <meta name="description" content="{pagemetadescription}">
+    {% endif %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ getAssetUrl('themes/'~template~'/css/styles.css') }}" type="text/css" />
+
+    <!-- Bootstrap (grid only) -->
+    <link rel="stylesheet" href="{{ getAssetUrl('themes/'~template~'/css/bootstrap-grid.css') }}">
+
+    </style>
+  </head>
+  <body>
+    {{ outputScripts('bodyOpen') }}
+    {% block content %}{% endblock %}
+    {{ outputScripts('bodyClose') }}
+  </body>
+</html>

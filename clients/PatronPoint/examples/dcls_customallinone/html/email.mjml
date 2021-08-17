@@ -1,0 +1,215 @@
+<mjml>
+  <mj-body background-color="#f2f6f9">
+    <mj-section css-class="slot-section" padding-top="10px" padding-bottom="10px" background-color="#FFFFFF">
+      <mj-column css-class="slots">
+        <mj-text css-class="slot-text" font-family="'Open Sans', Arial, Sans serif" align="center" font-size="12px" line-height="16px" padding-bottom="10px" color="#666666">
+Can't see this email? <a href="{webview_url}" style="" target="_blank">Click here</a> to view this message in browser window.
+</mj-text>
+        <mj-divider css-class="slot-divider" border-color="#9A9A9A" border-width="1px"></mj-divider>
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="slot-section" padding-top="0px" padding-bottom="10px" background-color="#FFFFFF" >
+      <mj-column css-class="slots">
+        <mj-image css-class="slot-image" src="https://dcls.patronpoint.com/themes/dcls_customallinone/img/dcls_logo.png" href="https://www.dcls.org/" width="600px" alt="Dauphin County Library System"></mj-image>  </mj-column>
+</mj-section>
+
+    <mj-section css-class="slot-section" padding-top="10px" padding-left="10px" padding-right="10px" padding-bottom="10px" background-color="#FFFFFF" >
+      <mj-column css-class="slots">
+        <mj-image css-class="slot-image" src="http://via.placeholder.com/580x380" href="#" width="580px" padding="0" fluid-on-mobile="true"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="slot-section" padding-top="20px" padding-bottom="10px" background-color="#FFFFFF" >
+      <mj-column css-class="slots">
+        <mj-image css-class="slot-image" src="https://ahplmi.patronpoint.com/themes/all_in_one_auburn_hills/img/rocket-icon.jpg" width="28px" padding="0"></mj-image>
+        <mj-text css-class="slot-text" font-family="'Open Sans', Arial, Sans serif" align="center" font-size="20px" line-height="24px" padding-bottom="10px" color="#fe4e1f">
+          Lorem ipsum dolor
+        </mj-text>
+        <mj-button css-class="slot-button" font-family="'Open Sans', Arial, Sans serif" align="center" font-size="14px" line-height="18px" href="#" background-color="#3371a2" border-radius="4px">Read more
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="slot-section" padding-top="10px" padding-bottom="10px" background-color="#FFFFFF" padding-left="20px" padding-right="20px" direction="rtl">
+      <mj-column css-class="slots" vertical-align="middle">
+        <mj-image css-class="slot-image" src="http://via.placeholder.com/290x250" href="#" width="250px" alt="Topic image"></mj-image>
+      </mj-column>
+      <mj-column css-class="slots" vertical-align="middle">
+        <mj-text css-class="slot-text" font-family="'Open Sans', Arial, Sans serif" align="left" font-size="20px" line-height="24px" padding-bottom="10px">Caption Heading
+          </mj-text>
+        <mj-text css-class="slot-text" font-family="'Open Sans', Arial, Sans serif" align="left" font-size="14px" line-height="18px" padding-bottom="10px">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis in ante eu ultricies. Curabitur efficitur velit eu interdum dignissim.
+        </mj-text>
+        <mj-button css-class="slot-button" font-family="'Open Sans', Arial, Sans serif" align="left" font-size="14px" line-height="18px" href="#" background-color="#3371a2" border-radius="4px">Read more
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="slot-section" padding-top="10px" padding-bottom="10px" background-color="#FFFFFF" padding-left="20px" padding-right="20px">
+      <mj-column css-class="slots" vertical-align="middle">
+        <mj-image css-class="slot-image" src="http://via.placeholder.com/290x250" href="#" width="250px" alt="Topic image"></mj-image>
+      </mj-column>
+      <mj-column css-class="slots" vertical-align="middle">
+        <mj-text css-class="slot-text" font-family="'Open Sans', Arial, Sans serif" align="left" font-size="20px" line-height="24px" padding-bottom="10px">Caption Heading
+          </mj-text>
+        <mj-text css-class="slot-text" font-family="'Open Sans', Arial, Sans serif" align="left" font-size="14px" line-height="18px" padding-bottom="10px">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis in ante eu ultricies. Curabitur efficitur velit eu interdum dignissim.
+        </mj-text>
+        <mj-button css-class="slot-button" font-family="'Open Sans', Arial, Sans serif" align="left" font-size="14px" line-height="18px" href="#" background-color="#3371a2" border-radius="4px">Read more
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="slot-section" padding-top="10px" padding-bottom="10px" background-color="#FFFFFF" padding-left="20px" padding-right="20px" direction="rtl">
+      <mj-column css-class="slots" vertical-align="middle">
+        <mj-image css-class="slot-image" src="http://via.placeholder.com/290x250" href="#" width="250px" alt="Topic image"></mj-image>
+      </mj-column>
+      <mj-column css-class="slots" vertical-align="middle">
+        <mj-text css-class="slot-text" font-family="'Open Sans', Arial, Sans serif" align="left" font-size="20px" line-height="24px" padding-bottom="10px">Caption Heading
+          </mj-text>
+        <mj-text css-class="slot-text" font-family="'Open Sans', Arial, Sans serif" align="left" font-size="14px" line-height="18px" padding-bottom="10px">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis in ante eu ultricies. Curabitur efficitur velit eu interdum dignissim.
+        </mj-text>
+        <mj-button css-class="slot-button" font-family="'Open Sans', Arial, Sans serif" align="left" font-size="14px" line-height="18px" href="#" background-color="#3371a2" border-radius="4px">Read more
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="slot-section" padding-top="10px" padding-bottom="10px" background-color="#FFFFFF" >
+      <mj-column css-class="slots">
+        <mj-text css-class="slot-text" font-family="'Open Sans', Arial, Sans serif" align="center" font-size="36px" line-height="40px" padding-bottom="0px" font-weight="700">Bold Floating Heading
+          </mj-text>
+        <mj-text css-class="slot-text" font-family="'Open Sans', Arial, Sans serif" align="center" font-size="20px" line-height="24px" padding-bottom="20px">Bold Floating Copy
+          </mj-text>
+        <mj-button css-class="slot-button" font-family="'Open Sans', Arial, Sans serif" align="center" font-size="14px" line-height="18px" href="#" background-color="#3371a2" border-radius="4px">Read more
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    
+ <!-- 3-COLUMN LAYOUT --> 
+    
+ <mj-section css-class="slot-section" padding-top="10px" padding-bottom="10px" background-color="#FFFFFF">
+      <mj-column css-class="slots">
+        <mj-image css-class="slot-image" src="https://webmecanik.automation.webmecanik.com/media/images/column.jpg" href="https://www.patronpoint.com" width="150px" alt="Topic image"></mj-image>
+        <mj-text css-class="slot-text" font-family="Arial, Sans serif" align="center" font-size="21px" line-height="25px" padding-bottom="0px" font-weight="700">
+          Lorem ipsum dolor
+        </mj-text>
+        <mj-text css-class="slot-text" font-family="Arial, Sans serif" align="center" font-size="14px" line-height="18px" padding-bottom="0px">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis in ante eu ultricies. Curabitur efficitur velit eu interdum dignissim.
+        </mj-text>
+        <mj-button css-class="slot-button" font-family="Arial, Sans serif" align="center" font-size="14px" line-height="18px" background-color="#3371a2" href="https://www.patronpoint.com">Call to action</mj-button>
+      </mj-column>
+      <mj-column css-class="slots">
+        <mj-image css-class="slot-image" src="https://webmecanik.automation.webmecanik.com/media/images/column.jpg" href="" width="150px" alt="Topic image"></mj-image>
+        <mj-text css-class="slot-text" font-family="Arial, Sans serif" align="center" font-size="21px" line-height="25px" padding-bottom="0px" font-weight="700">
+          Lorem ipsum dolor
+        </mj-text>
+        <mj-text css-class="slot-text" font-family="Arial, Sans serif" align="center" font-size="14px" line-height="18px" padding-bottom="0px">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis in ante eu ultricies. Curabitur efficitur velit eu interdum dignissim.
+        </mj-text>
+        <mj-button css-class="slot-button" font-family="Arial, Sans serif" align="center" font-size="14px" line-height="18px" background-color="#3371a2" href="https://www.patronpoint.com">Call to action</mj-button>
+      </mj-column>
+      <mj-column css-class="slots">
+        <mj-image css-class="slot-image" src="https://webmecanik.automation.webmecanik.com/media/images/column.jpg" href="https://www.patronpoint.com" width="150px" alt="Topic image"></mj-image>
+        <mj-text css-class="slot-text" font-family="Arial, Sans serif" align="center" font-size="21px" line-height="25px" padding-bottom="0px" font-weight="700">
+          Lorem ipsum dolor
+        </mj-text>
+        <mj-text css-class="slot-text" font-family="Arial, Sans serif" align="center" font-size="14px" line-height="18px" padding-bottom="0px">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis in ante eu ultricies. Curabitur efficitur velit eu interdum dignissim.
+        </mj-text>
+        <mj-button css-class="slot-button" font-family="Arial, Sans serif" align="center" font-size="14px" line-height="18px" background-color="#3371a2" href="https://www.patronpoint.com.com">Call to action</mj-button>
+
+      </mj-column>
+    </mj-section>   
+    
+      <mj-section css-class="slot-section" padding-top="10px" padding-bottom="10px" background-color="#FFFFFF" >
+      <mj-column css-class="slots">
+        <mj-image css-class="slot-image" src="http://via.placeholder.com/275x175" href="#" width="275px" alt="Topic image" align="left"></mj-image>
+        <mj-text css-class="slot-text" font-family="'Open Sans', Arial, Sans serif" align="left" font-size="20px" line-height="24px" padding-bottom="10px" color="#3371a2">Caption Heading
+          </mj-text>
+        <mj-text css-class="slot-text" font-family="'Open Sans', Arial, Sans serif" align="left" font-size="14px" line-height="18px" padding-bottom="10px">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis in ante eu ultricies. Curabitur efficitur velit eu interdum dignissim.
+        </mj-text>
+        <mj-button css-class="slot-button" font-family="'Open Sans', Arial, Sans serif" align="left" font-size="14px" line-height="18px" href="#" background-color="#3371a2" border-radius="4px">Read more
+        </mj-button>
+      </mj-column>
+      <mj-column css-class="slots">
+        <mj-image css-class="slot-image" src="http://via.placeholder.com/275x175" href="#" width="275px" alt="Topic image" align="left"></mj-image>
+        <mj-text css-class="slot-text" font-family="'Open Sans', Arial, Sans serif" align="left" font-size="20px" line-height="24px" padding-bottom="10px" color="#3371a2">Caption Heading
+          </mj-text>
+        <mj-text css-class="slot-text" font-family="'Open Sans', Arial, Sans serif" align="left" font-size="14px" line-height="18px" padding-bottom="10px">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis in ante eu ultricies. Curabitur efficitur velit eu interdum dignissim.
+        </mj-text>
+        <mj-button css-class="slot-button" font-family="'Open Sans', Arial, Sans serif" align="left" font-size="14px" line-height="18px" href="#" background-color="#3371a2" border-radius="4px">Read more
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="slot-section" padding-top="10px" padding-bottom="10px" background-color="#FFFFFF" padding-left="20px" padding-right="20px" direction="rtl">
+      <mj-column css-class="slots" vertical-align="middle" width="67%">
+        <mj-image css-class="slot-image" src="http://via.placeholder.com/350x250" href="#" width="350px" alt="Topic image" fluid-on-mobile="true" padding-left="5px" padding-right="5px" align="right"></mj-image>
+      </mj-column>
+      <mj-column css-class="slots" vertical-align="middle" width="33%">
+        <mj-text css-class="slot-text" font-family="'Open Sans', Arial, Sans serif" align="left" font-size="20px" line-height="24px" padding-bottom="10px" padding-left="5px" padding-right="5px">Caption Heading
+          </mj-text>
+        <mj-text css-class="slot-text" font-family="'Open Sans', Arial, Sans serif" align="left" font-size="14px" line-height="18px" padding-bottom="10px" padding-left="5px" padding-right="5px">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis in ante eu ultricies. Curabitur efficitur velit eu interdum dignissim.
+        </mj-text>
+        <mj-button css-class="slot-button" font-family="'Open Sans', Arial, Sans serif" align="left" font-size="14px" line-height="18px" href="#" background-color="#3371a2" border-radius="4px" padding-left="5px" padding-right="5px">Read more
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="slot-section" padding-top="10px" padding-bottom="10px" background-color="#FFFFFF" padding-left="20px" padding-right="20px">
+      <mj-column css-class="slots" vertical-align="middle" width="67%">
+        <mj-image css-class="slot-image" src="http://via.placeholder.com/350x250" href="#" width="350px" alt="Topic image"  padding-left="5px" padding-right="5px" fluid-on-mobile="true" align="left"></mj-image>
+      </mj-column>
+      <mj-column css-class="slots" vertical-align="middle" width="33%">
+        <mj-text css-class="slot-text" font-family="'Open Sans', Arial, Sans serif" align="left" font-size="20px" line-height="24px" padding-bottom="10px" padding-left="5px" padding-right="5px">Caption Heading
+          </mj-text>
+        <mj-text css-class="slot-text" font-family="'Open Sans', Arial, Sans serif" align="left" font-size="14px" line-height="18px" padding-bottom="10px" padding-left="5px" padding-right="5px">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis in ante eu ultricies. Curabitur efficitur velit eu interdum dignissim.
+        </mj-text>
+        <mj-button css-class="slot-button" font-family="'Open Sans', Arial, Sans serif" align="left" font-size="14px" line-height="18px" href="#" background-color="#3371a2" border-radius="4px" padding-left="5px" padding-right="5px">Read more
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="slot-section" padding-top="10px" padding-bottom="10px" background-color="#FFFFFF" >
+      <mj-column css-class="slots">
+        <mj-text css-class="slot-text" font-family="'Open Sans', Arial, Sans serif" align="center" font-size="20px" line-height="24px" padding-bottom="20px">Bold Text Block Heading
+          </mj-text>
+        <mj-text css-class="slot-text" font-family="'Open Sans', Arial, Sans serif" align="left" font-size="14px" line-height="18px" padding-bottom="10px">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+<br /><br />
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+<br /><br />
+Sunt in culpa qui officia deserunt mollit anim id est labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </mj-text>
+        <mj-button css-class="slot-button" font-family="'Open Sans', Arial, Sans serif" align="center" font-size="14px" line-height="18px" href="#" background-color="#3371a2" border-radius="4px">Read more
+        </mj-button>
+      </mj-column>
+    </mj-section> 
+    
+    
+    <mj-section css-class="slot-section" padding-top="10px" padding-bottom="10px" background-color="#FFFFFF" >
+      <mj-column css-class="slots">
+        <mj-divider css-class="slot-divider" border-color="#9A9A9A" border-width="1px"></mj-divider>
+        <mj-text css-class="slot-text" font-family="'Open Sans', Arial, Sans serif" align="center" font-size="20px" line-height="24px" padding-bottom="20px">Connect with us
+          </mj-text>
+
+        <mj-social border-radius="0" icon-size="40px" mode="horizontal" line-height="0"> <mj-social-element  src="https://dcls.patronpoint.com/themes/dcls_customallinone/img/Facebook.png" target="_blank" name="facebook-noshare" href="https://www.facebook.com/DCLS.PA" alt="Facebook" background-color="#FFF">  </mj-social-element> <mj-social-element  src="https://dcls.patronpoint.com/themes/dcls_customallinone/img/Twitter.png" target="_blank" name="twitter-noshare" href="https://www.twitter.com/dcls_library" alt="Twitter" background-color="#FFF">  </mj-social-element><mj-social-element  src="https://dcls.patronpoint.com/themes/dcls_customallinone/img/Instagram.png" target="_blank" name="instagram-noshare" href="https://www.instagram.com/dcls_library" alt="Instagram" background-color="#FFF">  </mj-social-element>       </mj-social>
+        
+        
+        <mj-divider css-class="slot-divider" border-color="#9A9A9A" border-width="1px"></mj-divider>
+        <mj-text css-class="slot-text" color="#666666" font-family="'Open Sans', Arial, Sans serif" align="center" font-size="12px" line-height="16px"><a class="mj-content" href="{unsubscribe_url}" style="color:inherit;" target="_blank">Click here to unsubscribe</a><br /><br />Dauphin County Library System <br />101 Walnut Street Harrisburg, PA 17101<br /><a  href="tel:717-234-4961"style="text-decoration: none">Phone: (717) 234-4961</a>          <br /> </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="slot-section" padding-top="10px" >
+      <mj-column css-class="slots">
+        <mj-image css-class="slot-image" src="https://ahplmi.patronpoint.com/themes/all_in_one_auburn_hills/img/Powered_by_PP-250w37h-2.jpg"width="200px" alt="My company logo"></mj-image>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

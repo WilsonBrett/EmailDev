@@ -1,0 +1,131 @@
+<mjml>
+  <mj-head>
+    <mj-title></mj-title>
+    <mj-attributes>
+      <mj-all font-family="arial, helvetica, sans-serif" color="#181a1c" padding="0" />
+      <mj-section padding="0 20px" />
+      <mj-text font-size="16px" />
+    </mj-attributes>
+    <mj-preview></mj-preview>
+    <mj-style inline="inline">
+      h1, h2, h3, h4, h5, h6, p {
+        margin: 0;
+      }
+
+      p {
+        font-size: 16px;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      .quote h3 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 1.1;
+      }
+
+      .cta a {
+        background-color: #181a1c !important;
+        background-image: url(https://res.cloudinary.com/cbs1916/image/upload/v1597667866/mercury/cta-arrow_ivg4vs.png) !important;
+        background-position: right 32px center !important;
+        background-repeat: no-repeat !important;
+        background-size: 20px !important;
+      }
+    </mj-style>
+
+    <mj-style>
+      .speaker-name:hover {
+        color: grey !important;
+        text-decoration: underline !important;
+      }
+
+      .cta a:hover {
+        background-color: #42474c !important;
+        color: #89939c !important;
+      }
+
+      @media screen and (max-width: 600px) {
+        .cta table {
+          min-width: 75% !important;
+        }
+
+        .cta a {
+          width: calc(100% - 40px) !important;
+        }
+
+        .quote {
+          padding: 45px 0 !important;
+        }
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body width="640px">
+    <mj-section>
+      <mj-column>
+        <mj-text align="right" font-size="13px" padding="10px 0">
+          <a href="#" style="color: grey;">Open in Browser</a>          
+        </mj-text>
+        <mj-divider border-width="1px" border-style="solid" border-color="lightgrey" />
+        <mj-image align="left" src="https://go-execed.gsb.columbia.edu/l/48172/2021-03-17/85cjrh/48172/1615990230ZBA6lKYk/execed_fullcolor_rgb_988px_by_162px_at_144ppi.png" alt="Columbia Business School Executive Education Logo" padding="16px 0px" width="316px" />
+        <mj-divider border-width="1px" border-style="solid" border-color="grey" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-text css-class="quote" padding="45px">
+          <h3>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</h3>
+        </mj-text>
+        <mj-table font-size="16px">
+          <tr><td style="font-weight: bold;"><a href="https://www.linkedin.com/in/ianhoggsydney/" style="color: #181a1c;" class="speaker-name" target="_blank">&ndash;Ian Hogg,</a></td></tr>
+          <tr><td style="">CEO Australia/Asia Pacific,</td></tr>
+          <tr><td style="">FremantleMedia</td></tr>
+        </mj-table>
+        <mj-text padding="16px 0">{{#if firstName}}Hello {{#firstName}}, {{else}}Hello,{{/if}}</mj-text>
+        <mj-text line-height="24px">
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+          <br><br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <ul>
+            <li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</li>
+            <li>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+          </ul>
+          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
+        </mj-text>
+        <mj-button align="right" css-class="cta" background-color="#181a1c" border-radius="0" color="#ffffff" font-size="16px" href="https://google.com" inner-padding="20px" line-height="24px" padding="16px 0" text-align="left" width="300px">Apply now</mj-button>
+        <mj-text line-height="24px">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br>
+          Kind regards,<br><br>
+          The Learning Solutions team<br>
+          Executive Education<br>
+          Columbia Business School<br>
+          +1 212-827-5603<br>
+          Schedule a call | Send us an email<br>
+        </mj-text>
+        <mj-divider border-width="1px" border-style="solid" border-color="grey" padding="20px 0"/>
+        <mj-image align="left" src="https://i1.createsend1.com/ti/j/D3/7C6/9C9/021006/csimport/cbs-logo-2_ojdre8_1.png" alt="Columbia Business School Logo Small" width="120px" />
+        <mj-divider border-width="1px" border-style="solid" border-color="grey" padding="20px 0 10px"/>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-bottom="100px">
+      <mj-group>
+        <mj-column>
+          <mj-text font-size="13px" line-height="18px" >
+            &copy; 2021 Columbia University<br>
+            3022 Broadway New York, NY 10027
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text font-size="13px" line-height="18px" >
+            <a href="https://www8.gsb.columbia.edu/policy/privacy-policy">Privacy &amp; Policy Statements</a><br>
+            <a href="https://columbiabusinessschool.createsend1.com/t/j-u-fllujkk-l-y/">Unsubscribe from these emails</a>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+  </mj-body>
+</mjml>

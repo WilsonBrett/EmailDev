@@ -1,0 +1,169 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-section padding="28px 16px" />
+      <mj-text padding="0" />
+      <mj-image padding="0" />
+    </mj-attributes>
+
+    <mj-style inline="inline">
+      h1, h2, h3, h4, h5, h6 {
+        line-height: 1.4;
+        margin: 0;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 34px;
+      }
+
+      .desktop-img {
+        display: none;
+        height: 0px;
+        line-height: 0;
+        mso-hide: all;
+        visibility: hidden;
+        width: 0px;
+      }
+
+      .icon-group h3 {
+        padding: 10px 0 5px;
+      }
+
+      .icon-group p {
+        margin: 0;
+        line-height: 1.5;
+      }
+
+      .footer-text {
+        color: #777777;
+        line-height:
+      }
+
+      .footer-util-links a {
+        text-decoration: none;
+      }
+    </mj-style>
+
+    <mj-style>
+      @media screen and (min-width: 480px) {
+        .section > table > tbody > tr > td {
+          padding-left: 40px !important;
+          padding-right: 40px !important;
+        }
+      }
+      @media screen and (min-width: 480px) {
+        .mobile-img {
+          display: none;
+          height: 0px;
+          line-height: 0;
+          mso-hide: all;
+          visibility: hidden;
+          width: 0px;
+        }
+      }
+
+      @media screen and (min-width: 480px) {
+        .desktop-img {
+          display: block !important;
+          height: auto !important;
+          line-height: normal !important;
+          mso-hide: none !important;
+          visibility: visible !important;
+          width: auto !important;
+        }
+      }
+
+      @media screen and (min-width: 480px) {
+        .icon-group-heading h2 {
+          display: inline-block;
+          padding-bottom: 10px;
+          width: 450px;
+        }
+      }
+
+      @media screen and (min-width: 480px) {
+        .footer-util-links a {
+          padding-right: 30px !important;
+        }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#f7f7f7" width="700px">
+    <mj-section css-class="section" background-color="#ffbc00">
+      <mj-column>
+        <mj-text>
+          <h1 style="padding-bottom: 12px;">Hey Salle,<br />your new scores are ready!</h1>
+          <div class="mobile-img" style="text-align: center;"><img src="../imgs/cal-icon-mobile.png" alt="Calendar icon." /></div>
+          <div class="desktop-img" style="text-align: center;"><img src="../imgs/cal-icon-desktop.png" alt="Calendar icon." /></div>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="section" background-color="#ffffff" padding-bottom="0">
+      <mj-column>
+        <mj-text align="center" css-class="icon-group-heading">
+          <h2>Checking up on them once a week should keep you in the know.</h2>
+        </mj-text>
+        <mj-button href="https://creditkarma.com" background-color="#52c800">Check your score</mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="section" background-color="#ffffff" padding-top="0">
+      <mj-column padding-top="20px">
+        <mj-image src="../imgs/accounts-icon.png" alt="Account information icon." height="45px" width="119px" padding-bottom="5px" />
+        <mj-text css-class="icon-group" align="center" padding="0 30px">
+          <h3>Oversee your accounts</h3>
+          <p>View your credit card and loan accounts in one place.</p>
+          <p><a href="https://creditkarma.com" target="_blank" style="color: #52c800; text-decoration: underline;">Take a look.</a></p>
+        </mj-text>
+      </mj-column>
+      <mj-column padding-top="20px">
+        <mj-image src="../imgs/id-icon.png" alt="ID theft icon - shield." height="50px" width="42px" />
+        <mj-text css-class="icon-group" align="center" padding="0 30px">
+          <h3>Spot possible ID theft</h3>
+          <p><a href="https://creditkarma.com" target="_blank" style="color: #52c800; text-decoration: underline;">Search for your info</a></p>
+          <p>in public data breaches and strengthen your defense.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="section" background-color="#e6e6e6" padding-top="20px" padding-bottom="0px">
+      <mj-column>
+        <mj-text line-height="130%" color="#777777">
+          <p>Load services offered through Credit Karma Offers, Inc., NMLS ID# 1628077 | <a href="https://creditkarma.com" target="_blank">Licenses</a> | <a href="https://creditkarma.com" target="_blank">NMLS Consumer Access.</a> California loans arranged pursuant to a California Financing Law license</p>
+          <p style="margin-bottom: 0;">Insurance services offered through Credit Karma Insurance Services, LLC (dba Karma Insurance Services, LLC; CA resident license #0172748)</p>
+        </mj-text>  
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="section" background-color="#e6e6e6" padding-top="0px" padding-bottom="20px" text-align="left">
+      <mj-column width="85px">
+        <mj-text line-height="130%" padding-top="20px">
+          <img style="width: 32px; height: 32px;" src="https://creditkarmacdn-a.akamaihd.net/res/img/mailings/ck/common/footer/appleIcon.png" alt="Apple icon." />
+          <img style="width: 32px; height: 32px; padding-left: 10px;" src="https://creditkarmacdn-a.akamaihd.net/res/img/mailings/ck/common/footer/androidIcon.png" alt="Android icon." />
+        </mj-text>
+      </mj-column>
+      <mj-column width="85%">
+        <mj-text color="#777777" line-height="130%" padding-top="20px">
+          <span>This is a promotional email. To manage your Credit Karma emails, please go to your <a href="https://creditkarma.com" target="_blank" style="text-decoration: none;">Communications &amp; Monitoring Preferences</a></span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="section" background-color="#e6e6e6" padding-top="0px" padding-bottom="20px">
+      <mj-column>
+        <mj-text color="#777777" line-height="130%">
+          <p style="font-style: italic; margin-top: 0;">Apple, the Apple Logo, and iPhone are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc.</p>
+          <p style="font-style: italic;">Android, Google Play and the Google Play logo are trademarks of Google Inc.</p>
+          <p>Credit Karma, Inc., P.O. Box 520, San Francisco, CA 94104-0520 Copyright &copy; 2008-2019 Credit Karma, Inc. All Rights Reserved. Note: Never share your online banking or Credit Karma passwords with anyone, including us!</p>
+          <p class="footer-util-links">
+            <a href="https://www.intuit.com/privacy/statement" target="_blank" style="padding-right: 12px;">Privacy Policy</a>
+            <a href="https://www.creditkarma.com/about/terms202011" target="_blank" style="padding-right: 12px;">Terms of Use</a>
+            <a href="https://creditkarma.com" target="_blank">Unsubscribe</a>
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

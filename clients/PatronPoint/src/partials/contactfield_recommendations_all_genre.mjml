@@ -1,0 +1,71 @@
+<!-- Begin Genre -->
+<mj-section background-color="#ffffff" border-left="12px solid #808080" border-right="12px solid #808080" padding="0">
+  <mj-column>
+    <mj-text container-background-color="#404040" align="center" color="#ffffff" font-family="'Open Sans', sans-serif" font-size="32px" font-weight="700" padding="28px">SUSPENSE</mj-text>
+  </mj-column>
+</mj-section>
+<!-- End Genre -->
+
+<mj-section background-color="#ffffff" border-left="12px solid #808080" border-right="12px solid #808080" padding="0">
+  <mj-column background-color="#404040" border="1px solid #ffffff">
+    <mj-image padding="0" height="275px" src="https://secure.syndetics.com/index.aspx?isbn=9781250130921/mc.gif&client=patronpointsyn&type=unbound&nicaption=Image" href="https://dcls-mt.iii.com/iii/encore/search/C__SThe%20wife%20between%20us%20Greer%20Hendricks" alt="Book Jacket" />
+    <mj-text color="#ffffff" padding="0">
+      <div style="min-height: 250px; padding: 12px; mso-padding-alt: 0; mso-border-alt: 8px solid #404040;">
+        Overview: The instantNew York TimesBestseller (January 2018)! "A fiendishly smart cat-and-mouse thriller" --New York Times Book Review "Buckle up, because you won't be able to put this one down." --Glamour "Jaw dropping. Unforgettable. Shocking." --Publishers Weekly(starred review) "The best domestic suspense novel sinceGone Girl." --In Touch Weekly When you read this book, you will make many assumptions....
+      </div>
+    </mj-text>
+    <mj-image width="100px" src="https://pp-new-title-reco-prod.s3.us-east-2.amazonaws.com/Stars+-+white_5+Star.png" alt="" />
+  </mj-column>
+
+  <mj-column border-top="1px solid #ffffff" border-bottom="1px solid #ffffff">
+    <mj-image padding="0" height="275px" src="https://secure.syndetics.com/index.aspx?isbn=9781466876514/mc.gif&client=patronpointsyn&type=unbound&nicaption=Image" href="https://dcls-mt.iii.com/iii/encore/search/C__SOrphan%20X%20Gregg%20Andrew%20Hurwitz" alt="Book Jacket" />
+    <mj-text color="#404040" padding="0">
+      <div style="min-height: 250px; padding: 12px; mso-padding-alt: 0; mso-border-alt: 8px solid #ffffff;">
+        Overview: "Brilliantly conceived and plotted ... Read this book. You'll thank me later." -- David Baldacci The first in the international bestselling series! Who is Orphan X? The Nowhere Man is a legendary figure spoken about only in whispers. It's said that when he's reached by the truly desperate and deserving, the Nowhere Man can and will do anything to protect and save them. But he's not merely a legend....
+      </div>
+    </mj-text>
+    <mj-image width="100px" src="https://pp-new-title-reco-prod.s3.us-east-2.amazonaws.com/Stars+-+dark+grey_5+Star.png" alt="" />
+  </mj-column>
+
+  <mj-column background-color="#404040" border="1px solid #ffffff">
+    <mj-image padding="0" height="275px" src="https://secure.syndetics.com/index.aspx?isbn=9781524745172/mc.gif&client=patronpointsyn&type=unbound&nicaption=Image" href="https://dcls-mt.iii.com/iii/encore/search/C__SHome%20before%20dark%20Riley%20Sager" alt="Book Jacket" />
+    <mj-text color="#ffffff" padding="0">
+      <div style="min-height: 250px; padding: 12px; mso-padding-alt: 0; mso-border-alt: 8px solid #404040;">
+        Overview: THE INSTANT NEW YORK TIMES BESTSELLER One of USA Today's Best Books of 2020 "Sager is a master of the twist and the turn. . . . You have to read to the very last page to find how who did what to whom and why." --Rolling Stone   In this chilling thriller, a woman returns to the house made famous by her father's bestselling horror memoir. Is the place really haunted by evil forces, as...
+      </div>
+    </mj-text>
+    <mj-image width="100px" src="https://pp-new-title-reco-prod.s3.us-east-2.amazonaws.com/Stars+-+white_5+Star.png" alt="" />
+  </mj-column>
+</mj-section>
+
+<mj-section background-color="#ffffff" border-left="12px solid #808080" border-right="12px solid #808080" padding="0">
+  <mj-column border-left="1px solid #ffffff" border-right="1px solid #ffffff" border-bottom="1px solid #ffffff">
+    <mj-image padding="0" height="275px" src="https://secure.syndetics.com/index.aspx?isbn=0316505579/mc.gif&client=patronpointsyn&type=unbound&nicaption=Image" href="https://dcls-mt.iii.com/iii/encore/search/C__SThe%20wife%20between%20us%20Greer%20Hendricks" alt="Book Jacket" />
+    <mj-text color="#404040" padding="0">
+      <div style="min-height: 250px; padding: 12px; mso-padding-alt: 0; mso-border-alt: 8px solid #ffffff;">
+        Overview: In this gripping page-turner, an ex-agent on the run from her former employers must take one more case to clear her name and save her life. She used to work for the U.S. government, but very few people ever knew that. An expert in her field, she was one of the darkest secrets of an agency so clandestine it doesn't even have a name. And when they decided she was a liability, they came for her without...
+      </div>
+    </mj-text>
+    <mj-image width="100px" src="https://pp-new-title-reco-prod.s3.us-east-2.amazonaws.com/Stars+-+dark+grey_5+Star.png" alt="" />
+  </mj-column>
+
+  <mj-column background-color="#404040" border-bottom="1px solid #ffffff">
+    <mj-image padding="0" height="275px" src="https://secure.syndetics.com/index.aspx?isbn=9781250219688/mc.gif&client=patronpointsyn&type=unbound&nicaption=Image" href="https://dcls-mt.iii.com/iii/encore/search/C__SOrphan%20X%20Gregg%20Andrew%20Hurwitz" alt="Book Jacket" />
+    <mj-text color="#ffffff" padding="0">
+      <div style="min-height: 250px; padding: 12px; mso-padding-alt: 0; mso-border-alt: 8px solid #404040;">
+        Overview: "A blistering plot and crisp writing makeThe Night Swim an unputdownable read." -Sarah Pekkanen, bestselling author ofThe Wife Between Us InThe Night Swim, a new thriller from Megan Goldin, author of the "gripping and unforgettable" (Harlan Coben)The Escape Room,a true crime podcast host covering a controversial trial finds herself drawn deep into a small town's dark past and a brutal crime that took...
+      </div>
+    </mj-text>
+    <mj-image width="100px" src="https://pp-new-title-reco-prod.s3.us-east-2.amazonaws.com/Stars+-+white_5+Star.png" alt="" />
+  </mj-column>
+
+  <mj-column border-left="1px solid #ffffff" border-right="1px solid #ffffff" border-bottom="1px solid #ffffff">
+    <mj-image padding="0" height="275px" src="https://secure.syndetics.com/index.aspx?isbn=006242906X/mc.gif&client=patronpointsyn&type=unbound&nicaption=Image" href="https://dcls-mt.iii.com/iii/encore/search/C__SHome%20before%20dark%20Riley%20Sager" alt="Book Jacket" />
+    <mj-text color="#404040" padding="0">
+      <div style="min-height: 250px; padding: 12px; mso-padding-alt: 0; mso-border-alt: 8px solid #ffffff;">
+        Overview: Lee Child says it's "stunning... certain to be a book of the year."   Kathy Reichs calls it "extraordinary... a major achievement." Jeffery Deaver says that "fiction doesn't get any better than this."   Gillian Flynn says of Karin Slaughter: "I'd follow her anywhere."   See for yourself what these #1 New York Times-bestselling authors are talking about.   Sisters. Strangers. Survivors....
+      </div>
+    </mj-text>
+    <mj-image width="100px" src="https://pp-new-title-reco-prod.s3.us-east-2.amazonaws.com/Stars+-+dark+grey_5+Star.png" alt="" />
+  </mj-column>
+</mj-section>
